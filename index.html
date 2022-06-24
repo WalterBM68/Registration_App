@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration numberst</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div>
+			<h1>Registration numbers</h1>
+
+			<div class="message">
+
+			</div>
+
+			<div>
+				<input type="text" class="regNumberEntered" placeholder="enter a registration number" value="">
+			
+			</div>
+
+			<div class="filter">
+				<strong>Filter by town</strong>
+					<input type="radio" name="town" class="towns" value="CY">Bellville
+					<input type="radio" name="town" class="towns" value="CJ">Paarl
+					<input type="radio" name="town" class="towns" value="CA"> Cape Town
+					<input type="radio" name="town" class="towns" value="CF"> Kuilsriver
+					<!-- <input type="radio" name="town" class="towns" value="">Show all -->
+                <button class="showReg btn blue">Show</button>
+			</div>
+			
+			<div class="regNumbers" id="regNumbers">
+				
+			</div>
+		</div>
+	</div>
+    <script src="registration.js"></script>
+	<script src="registration.dom.js"></script>
+</body>
+
+</html>
